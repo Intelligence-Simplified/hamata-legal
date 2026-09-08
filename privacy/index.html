@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Hamata</title>
+  <meta name="description" content="Privacy Policy for Hamata by Intelligence Simplified, LLC.">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Hamata</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="./" aria-current="page">Privacy</a>
+        <a href="../support/">Support</a>
+        <a href="../delete/">Delete</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="hero-copy">
+        <h1>Privacy Policy</h1>
+        <p class="lede">How Hamata uses information on your device and with Google.</p>
+      </div>
+    </div>
+
+    <article class="content">
+      <p>
+        This Privacy Policy describes how <strong>Intelligence Simplified, LLC</strong>
+        (“we,” “us”) handles information in the <strong>Hamata</strong> Android app,
+        package name <code>app.hamata.android</code>.
+      </p>
+      <p>Last updated: September 7, 2026.</p>
+
+      <h2>Overview</h2>
+      <p>
+        Hamata is a Gmail client for quickly organizing a large inbox on your phone.
+        After you sign in with Google, Hamata downloads message <strong>headers</strong>
+        (and message bodies when you open a thread) to a local index on your device so you
+        can group mail by sender, subject, or time and take bulk actions such as archive
+        or trash. Processing for filter and bulk triage happens <strong>on your device</strong>.
+        Hamata does <strong>not</strong> operate a mail server that stores your mail, tokens,
+        or sender graphs. The phone talks to <strong>Google</strong> (Gmail API / Google
+        sign-in) over HTTPS, not to an Intelligence Simplified backend for mail content.
+      </p>
+      <p>
+        We do not sell your data, and we do not use advertising or ad tracking in the app.
+      </p>
+
+      <h2>Information we access or process</h2>
+      <ul>
+        <li>
+          <strong>Google account (Sign in with Google).</strong>
+          With your consent, Hamata uses Google Identity services to obtain an access token
+          and your account email so it can call the Gmail API on your behalf. Tokens and the
+          signed-in email are stored in encrypted storage on your device. We do not run a
+          Hamata account system separate from Google.
+        </li>
+        <li>
+          <strong>Gmail message headers and bodies.</strong>
+          With Gmail permission (scope <code>gmail.modify</code> plus basic OpenID
+          email/profile scopes), Hamata reads metadata such as From, Subject, Date, labels,
+          and size to build the on-device index, and may fetch message bodies when you open
+          a thread. That mail data is stored and processed locally for triage. Bulk archive,
+          trash, and mark-read/unread send label changes to Google so they apply in Gmail.
+        </li>
+        <li>
+          <strong>Optional contacts (if enabled in your build).</strong>
+          If you grant contacts permission, Hamata may read on-device contacts only to help
+          match display names or avatars in the UI. Contact data is not uploaded to an
+          Intelligence Simplified server.
+        </li>
+      </ul>
+
+      <h2>What we do not do</h2>
+      <ul>
+        <li>We do not sell your personal information.</li>
+        <li>We do not use third-party advertising networks or ad trackers in the app.</li>
+        <li>We do not operate a Hamata mail backend that receives or stores your messages.</li>
+        <li>We do not permanently delete Gmail messages from Google’s servers via a
+            “purge” scope in current dogfood builds (trash moves mail to Gmail Trash).</li>
+      </ul>
+
+      <h2>Google’s role</h2>
+      <p>
+        Google’s handling of your Google Account and Gmail is governed by Google’s own terms
+        and privacy policies. Hamata’s use of Gmail APIs is subject to Google’s Limited Use
+        requirements for restricted scopes. Signing in with Google is not creating an account
+        with Intelligence Simplified.
+      </p>
+
+      <h2>Retention and deletion</h2>
+      <ul>
+        <li>
+          Use <strong>Disconnect</strong> in Hamata to remove the Google session from the app
+          and wipe Hamata’s local header/body index on that device. See
+          <a href="../delete/">Disconnect &amp; delete local data</a>.
+        </li>
+        <li>
+          Uninstalling Hamata also removes the app’s local storage on that device.
+        </li>
+        <li>
+          Disconnecting or uninstalling does <strong>not</strong> delete your Gmail mailbox
+          at Google. Manage or delete mail in Gmail if that is what you want.
+        </li>
+        <li>
+          You can revoke Hamata’s access to your Google Account in your Google Account
+          security settings at any time.
+        </li>
+      </ul>
+
+      <h2>Children</h2>
+      <p>
+        Hamata is not directed at children under 13. We do not knowingly collect personal
+        information from children under 13.
+      </p>
+
+      <h2>Contact</h2>
+      <p>
+        Questions about this policy:
+        <a href="mailto:hamata@intelligencesimplified.com">hamata@intelligencesimplified.com</a>
+      </p>
+      <p>Intelligence Simplified, LLC</p>
+
+      <p class="meta">
+        This page is provided for Google Play and user transparency.
+        Google’s handling of your Google Account and Gmail is also governed by Google’s own terms and privacy policies.
+      </p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; Intelligence Simplified, LLC · <a href="../">Home</a></p>
+  </footer>
+</body>
+</html>
