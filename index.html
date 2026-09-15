@@ -3,8 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hamata — Privacy &amp; Support</title>
-  <meta name="description" content="Privacy Policy, Support, and account deletion for Hamata by Intelligence Simplified, LLC.">
+  <title>Hamata — On-device Gmail organizer for big inboxes</title>
+  <meta name="description" content="Hamata is an Android Gmail organizer for bulk triage. Sign in with Google, index headers on your phone, and archive or trash in batches. Privacy stays on device.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hamata — On-device Gmail organizer for big inboxes">
+  <meta property="og:description" content="Bulk triage for huge Gmail inboxes. Headers stay on your phone. Coming to Google Play.">
+  <meta property="og:url" content="https://intelligence-simplified.github.io/hamata-legal/">
+  <meta property="og:site_name" content="Hamata">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Hamata — On-device Gmail organizer for big inboxes">
+  <meta name="twitter:description" content="Bulk triage for huge Gmail inboxes. Headers stay on your phone. Coming to Google Play.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,6 +23,7 @@
         <span>Hamata</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
+        <a href="#features">Features</a>
         <a href="privacy/">Privacy</a>
         <a href="support/">Support</a>
         <a href="delete/">Delete</a>
@@ -22,38 +31,126 @@
     </div>
   </header>
 
-  <main>
-    <div class="hero">
+  <main class="landing">
+    <section class="hero hero-landing">
       <div class="hero-copy">
-        <h1>Hamata</h1>
-        <p class="lede">On-device Gmail triage for a huge inbox. Legal and support pages for the Android app.</p>
+        <p class="eyebrow">Android · Gmail organizer</p>
+        <h1>Clear a huge inbox without drowning in one-by-one taps</h1>
+        <p class="lede">
+          Hamata indexes Gmail headers on your phone so you can group mail by sender,
+          subject, or time, then archive or trash in bulk. Built for inboxes that
+          outgrew the stock app.
+        </p>
+        <div class="cta-row">
+          <span class="btn btn-primary" aria-disabled="true">Coming to Google Play</span>
+          <a class="btn btn-secondary" href="mailto:hamata@intelligencesimplified.com">Email us</a>
+        </div>
       </div>
-    </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="inbox-illus">
+          <div class="inbox-illus-bar"></div>
+          <div class="inbox-illus-row is-selected"><span></span><span></span></div>
+          <div class="inbox-illus-row is-selected"><span></span><span></span></div>
+          <div class="inbox-illus-row"><span></span><span></span></div>
+          <div class="inbox-illus-row is-selected"><span></span><span></span></div>
+          <div class="inbox-illus-chip">Bulk archive</div>
+        </div>
+      </div>
+    </section>
 
-    <ul class="card-list">
-      <li>
-        <a href="privacy/">
-          <strong>Privacy Policy</strong>
-          <span>How Hamata handles Gmail sign-in, on-device headers, and what never leaves your phone to us.</span>
-        </a>
-      </li>
-      <li>
-        <a href="support/">
-          <strong>Support</strong>
-          <span>How to get help and contact us.</span>
-        </a>
-      </li>
-      <li>
-        <a href="delete/">
-          <strong>Disconnect &amp; delete local data</strong>
-          <span>How to sign out of Google in the app and wipe Hamata’s on-device index.</span>
-        </a>
-      </li>
-    </ul>
+    <section id="features" class="section" aria-labelledby="features-heading">
+      <h2 id="features-heading" class="section-title">Why Hamata</h2>
+      <div class="features-grid">
+        <article class="feature-card">
+          <h3>Made for big inboxes</h3>
+          <p>
+            First sync downloads headers into a local index. Large mailboxes can take
+            a while on day one; after that you work from groups instead of endless scrolling.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Bulk actions</h3>
+          <p>
+            Select by sender, subject pattern, or time window. Archive, trash, or mark
+            read/unread in batches so changes land in Gmail the same way they would in the
+            official client.
+          </p>
+        </article>
+        <article class="feature-card">
+          <h3>Privacy on device</h3>
+          <p>
+            Filter and triage run on your phone. Hamata does not run a mail server that
+            stores your messages, tokens, or sender graphs. Your phone talks to Google
+            over HTTPS, not to an Intelligence Simplified backend for mail content.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="scope-heading">
+      <h2 id="scope-heading" class="section-title">What it is (and isn’t)</h2>
+      <div class="scope-grid">
+        <div class="scope-card scope-yes">
+          <h3>It is</h3>
+          <ul>
+            <li>A Gmail organizer focused on bulk triage</li>
+            <li>On-device header indexing for fast grouping</li>
+            <li>Sign-in with Google; no separate Hamata account</li>
+            <li>An Android app from Intelligence Simplified, LLC</li>
+          </ul>
+        </div>
+        <div class="scope-card scope-no">
+          <h3>It isn’t</h3>
+          <ul>
+            <li>A replacement for every Gmail feature</li>
+            <li>A cloud service that hosts your mailbox</li>
+            <li>An ad-supported or tracker-heavy client</li>
+            <li>A permanent purge tool beyond Gmail Trash</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="legal-heading">
+      <h2 id="legal-heading" class="section-title">Legal &amp; support</h2>
+      <ul class="card-list">
+        <li>
+          <a href="privacy/">
+            <strong>Privacy Policy</strong>
+            <span>How Hamata handles Gmail sign-in, on-device headers, and what never leaves your phone to us.</span>
+          </a>
+        </li>
+        <li>
+          <a href="support/">
+            <strong>Support</strong>
+            <span>How to get help and contact us at hamata@intelligencesimplified.com.</span>
+          </a>
+        </li>
+        <li>
+          <a href="delete/">
+            <strong>Disconnect &amp; delete local data</strong>
+            <span>How to sign out of Google in the app and wipe Hamata’s on-device index.</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="section cta-band" aria-labelledby="cta-heading">
+      <h2 id="cta-heading" class="section-title">Ready when Play is</h2>
+      <p class="cta-band-copy">
+        Hamata is preparing for Google Play. Questions, press, or early access interest:
+        write to
+        <a href="mailto:hamata@intelligencesimplified.com">hamata@intelligencesimplified.com</a>.
+      </p>
+      <div class="cta-row">
+        <span class="btn btn-primary" aria-disabled="true">Coming to Google Play</span>
+        <a class="btn btn-secondary" href="mailto:hamata@intelligencesimplified.com">Contact</a>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
-    <p>&copy; Intelligence Simplified, LLC</p>
+    <p>&copy; Intelligence Simplified, LLC · Package <code>app.hamata.android</code></p>
   </footer>
 </body>
 </html>
