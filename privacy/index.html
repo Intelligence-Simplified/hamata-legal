@@ -36,7 +36,7 @@
         (“we,” “us”) handles information in the <strong>Hamata</strong> Android app,
         package name <code>app.hamata.android</code>.
       </p>
-      <p>Last updated: October 6, 2026.</p>
+      <p>Last updated: October 17, 2026.</p>
 
       <h2>Overview</h2>
       <p>
@@ -74,10 +74,9 @@
           trash, and mark-read/unread send label changes to Google so they apply in Gmail.
         </li>
         <li>
-          <strong>Optional contacts (if enabled in your build).</strong>
-          If you grant contacts permission, Hamata may read on-device contacts only to help
-          match display names or avatars in the UI. Contact data is not uploaded to an
-          Intelligence Simplified server.
+          <strong>No contacts.</strong>
+          Current builds (1.1.0 and later) do not request contacts permission and do not
+          read the contacts on your device.
         </li>
       </ul>
 
@@ -106,8 +105,8 @@
         <li>We do not sell your personal information.</li>
         <li>We do not use third-party advertising networks or ad trackers in the app.</li>
         <li>We do not operate a Hamata mail backend that receives or stores your messages.</li>
-        <li>We do not permanently delete Gmail messages from Google’s servers via a
-            “purge” scope in current dogfood builds (trash moves mail to Gmail Trash).</li>
+        <li>Current builds do not permanently delete Gmail messages from Google’s servers
+            (trash moves mail to Gmail Trash), and Hamata does not send email.</li>
       </ul>
 
       <h2>Google’s role</h2>
